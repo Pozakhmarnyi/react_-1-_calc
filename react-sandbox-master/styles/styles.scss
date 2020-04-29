@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+$color1: #ffffffff;
+$color2: rgb(70, 69, 69);
+$color3: #b0d0d3ff;
+$color4: #c08497ff;
+$color5: white;
+
+body {
+  background-color: $color3;
+  padding: 20px;
+}
+
+.button {
+  color: white;
+  //   padding: 10px;
+  background-color: $color2;
+  border: none;
+  border-radius: 50%;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+  box-sizing: border-box;
+  font-size: 25px;
+
+  &:hover {
+    background-color: $color5;
+    color: black;
+  }
+  &--grey {
+    background: rgb(100, 100, 100);
+    color: black;
+  }
+  &--orange {
+    background: orange;
+  }
+  &--big {
+    border-radius: 50px;
+    width: 120px;
+    height: 50px;
+  }
+  &--betterLook {
+    font-weight: 600;
+    font-size: 27px;
+  }
+}
+
+.button--grey {
+  background: rgb(196, 196, 196);
+  color: black;
+}
+
+.container {
+  margin: auto;
+  margin-top: 30vh;
+  width: 281px;
+  height: 559px;
+  border-radius: 40px;
+  background: #000;
+
+  //   display: flex;
+  //   flex-wrap: wrap;
+  //   align-items: flex-start;
+}
+
+.display {
+  //   text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-wrap: wrap;
+
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 40px;
+  background: rgba(109, 109, 109, 0.267);
+  width: 281px;
+  height: 203px;
+}
+.conteinerForBotton {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
